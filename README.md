@@ -1,5 +1,5 @@
 # Anki-Story-Generator
-Fuelled by a blend of laziness and creativity, this Anki add-on swaps dull card reviews for captivating tales. Using OpenAI's GPT-3/GPT-4, it crafts stories in Japanese with your due cards. Learn and be entertained, all in one go. Because why yawn when you can be enthralled, yeah?
+Fuelled by a blend of laziness and creativity, this Anki add-on swaps dull card reviews for captivating tales. Using OpenAI's GPT-3/GPT-4, it crafts stories in Japanese with your due cards. Learn and be entertained, all in one go. Because why yawn when you can be entertained.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -16,23 +16,34 @@ When Anki tries to load add-ons, it specifically looks for this file. So, withou
 Note: Ensure you don't rename this file or change its location. It should always be in the root directory of your add-on.
 3. Restart Anki.
 
+
 ## Usage
-1. Once installed, go to `Tools` in your Anki menu.
+
+1. Head to `Tools` in your Anki menu.
 2. Click on `Story Generator`.
-3. Follow the on-screen instructions, from entering your OpenAI API key to selecting the number of cards and the story's topic and length.
-4. Enjoy your custom story!
+3. Follow the on-screen prompts:
+   - **OpenAI API Key**: Input your OpenAI API key to enable story generation.
+   - **Number of Cards**: Decide how many due cards you want to include in the story.
+   - **Select Topic**: Choose a theme for your narrative (Action, Romance, Mystery, Comedy).
+   - **Story Length**: Determine the length of your story (Short, Medium, Long).
+4. Engage with the produced story, listening to it, saving it, or reviewing associated cards.
 
 ## Features
-- **Dynamic Story Generation**: Craft unique narratives that integrate your Anki due cards.
-- **Audio Integration**: Hear the story with macOS's in-built 'say' command.
-- **Custom Preferences**: Choose the story's topic and length to match your mood.
-  
+
+- **Dynamic Story Generation**: Convert your due cards into engaging narratives based on user-chosen topics.
+- **Customizable Story Length**: Opt for a short, medium, or long narrative based on your preference.
+- **Batch Card Reviews**: Mark multiple cards with ease as 'Again', 'Hard', 'Good', or 'Easy'.
+- **Auditory Learning**: Make Kyoko (macOS voice) read the story aloud for you.
+- **Save Stories**: Preserve your generated tales by saving them to a file.
+- **GUI Integration**: All features are accessible through a user-friendly graphical interface.
+
 ## Contribute
-Got ideas to make this even cooler? We'd love to collaborate! 
+
+Wanna spice things up even more? Your contributions are welcome!
 1. Fork this repo.
-2. Create your feature branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
+2. Create your feature branch.
+3. Commit your magic.
+4. Push it.
 5. Open a pull request.
 
 ## Credits
